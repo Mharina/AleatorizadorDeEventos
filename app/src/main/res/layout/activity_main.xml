@@ -22,6 +22,7 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="350dp"
+        android:layout_marginTop="20dp"
         android:src="@drawable/microsoftteams_image_2_" />
 
     <ImageButton
@@ -29,16 +30,25 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:alpha="0.8"
+        android:backgroundTint="#80000000"
         android:scaleType="centerInside"
-        android:src="@drawable/microsoftteams_image" />
+        android:src="@drawable/microsoftteams_image"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="#80000000"
         android:gravity="center_horizontal"
         android:text="Comienza la aventura, pulsa el DADO para avanzar. CUIDADO puedes encontrarte enemigos"
-        android:textColor="#FF0000"
+        android:textColor="#FFFDFD"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
 </LinearLayout>

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Aleatorizador de Eventos</string>
+    <string name="proximamente">PROXIMAMENTE</string>
 </resources>
