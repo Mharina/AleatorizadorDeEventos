@@ -11,8 +11,8 @@ class Enemigo : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_enemigo)
-        val huir: Button = findViewById(R.id.button)
-        val luchar: Button = findViewById(R.id.button2)
+        val huir: Button = findViewById(R.id.button2)
+        val luchar: Button = findViewById(R.id.button)
         huir.setOnClickListener{
             var intent = Intent(this@Enemigo, MainActivity::class.java)
             startActivity(intent)

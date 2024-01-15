@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
+import android.widget.ImageView
 import java.util.Random
 
 class MainActivity : AppCompatActivity() {
@@ -11,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val dado: ImageButton = findViewById(R.id.imageButton)
+        val img: ImageView = findViewById(R.id.imageView)
 
         dado.setOnClickListener{
             var ale = Random()
