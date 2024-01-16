@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="350dp"
         android:layout_marginTop="20dp"
-        android:src="@drawable/microsoftteams_image_2_" />
+        android:src="@drawable/paisaje" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -34,7 +34,7 @@
         android:alpha="0.8"
         android:backgroundTint="#80000000"
         android:scaleType="centerInside"
-        android:src="@drawable/microsoftteams_image"
+        android:src="@drawable/dado"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
